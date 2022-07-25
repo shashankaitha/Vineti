@@ -25,7 +25,6 @@ entries:
     appVersion: 1.5.1
     created: "2022-07-26T00:02:23.8974419+05:30"
     deprecated: true
-    description: DEPRECATEDFast and generalpurpose cluster computing system.
     digest: e0b4862812f85dcf7b92d71ed90e9f894f1aef35bb76f384fe322ba736cd10fc
     home: http://spark.apache.org
     icon: http://spark.apache.org/images/spark-logo-trademark.png
