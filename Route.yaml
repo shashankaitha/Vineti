@@ -1,0 +1,16 @@
+  apiVersion: build.openshift.io/v1
+  kind: Route
+  metadata:
+    name: Dot-net
+    namespace: projectname
+    labels:
+      app: Dot-net
+    annotations:
+  spec:
+    to:
+      kind: Service
+      name: dot-net
+      weight: 100
+    port:
+      targetPort: 8080-tcp
+  wildcardPolicy: None
